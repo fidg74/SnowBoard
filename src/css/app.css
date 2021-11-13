@@ -1,0 +1,15 @@
+/*
+ ***********************
+ *    IMPORT FONTS     *
+ ***********************
+*/
+
+@import url('../fonts/Roboto.css');
+@import url('./clean.css');
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}

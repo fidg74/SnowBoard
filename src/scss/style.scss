@@ -1,0 +1,24 @@
+.header {
+    background: #F05E22;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    img {
+        height: 60px;
+        width: 60px;
+    }
+
+    &__link {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+}
+
+.footer {
+    background: #F05E22;
+}
