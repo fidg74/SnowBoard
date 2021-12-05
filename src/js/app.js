@@ -1,7 +1,7 @@
 const testModules = require('./test-module');
 require('../css/app.css');
 require('../scss/style.scss');
-require('../scss/home.scss')
+require('../scss/home.scss');
 
 /********** Paste your code here! ************/
 
