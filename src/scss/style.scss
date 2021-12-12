@@ -60,4 +60,30 @@
 
 .footer {
     background: #F05E22;
+    padding: 20px 0;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media (max-width: 450px) {
+            flex-direction: column;
+        }
+    }
+
+    p {
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    &__right {
+        display: flex;
+    }
+
+    &-logo{
+        margin-right: 40px;
+    }
+
+
 }
