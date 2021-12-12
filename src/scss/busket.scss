@@ -6,4 +6,48 @@
     .container {
         flex: 1 1 auto;
     }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border: 2px solid #F05E22;
+        margin-bottom: 20px;
+
+        img {
+            height: 100px;
+            width: 100px;
+        }
+
+        p {
+            font-size: 22px
+        }
+    }
+
+    &__price {
+        font-size: 20px;
+        color: blue;
+    }
+}
+
+@media (max-width: 815px) {
+    .busket {
+        &__item {
+            flex-direction: column;
+
+            p {
+                margin-bottom: 10px;
+            }
+
+            img {
+                margin-bottom: 10px;
+            }
+        }
+
+        &__count {
+            padding-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
 }
