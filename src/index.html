@@ -10,6 +10,10 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <link rel="stylesheet" href="../css/app.css">
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
   </head>
@@ -30,12 +34,12 @@
       <div class="container">
         <div class="home__content">
           <h1 class="home__title">Всё, что нужно для активного отдыха - у нас</h1>
-          <a href="" class="home__link">Узнать больше</a>
+          <div href="" class="home__link">Узнать больше</div>
         </div>
       </div>
     </div>
 
-    <div class="devide"><span ></span><img src="./images/Board.png" /><span></span></div>
+    <div class="devide"><span ></span><img src="./images/Board.png" class="devide-image" /><span></span></div>
     
     <div class="about">
       <div class="container">
@@ -82,6 +86,20 @@
         $('.burger-menu').click(function (event) {
           $('.header__navigation').toggleClass('active');
           $('body').toggleClass('lock');
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $('.home__link').click(function (event) {
+          $('.header').toggleClass('header__active');
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $('.devide-image').click(function (event) {
+          $('.devide-image').toggleClass('animate__animated animate__fadeInLeft');
         });
       });
     </script>

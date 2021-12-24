@@ -70,7 +70,37 @@
             color: red;
         }
     }
+}
 
+.form-contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    .container {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 30px;
+    }
+
+    label {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .button {
+       background: #F05E22;
+       border: none;
+       color: #fff;
+    }
     
 }
 

@@ -1,6 +1,12 @@
 .header {
     background: #F05E22;
     height: 60px;
+    transition: 2s;
+
+    &__active {
+        background: green;
+        transition: 2s;
+    }
 
     .container {
         display: flex;
